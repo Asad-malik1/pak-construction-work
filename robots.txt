@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+Sitemap: https://pakconstruction.work/sitemap.xml
+
+# Block sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+Disallow: /*?*
